@@ -1,0 +1,211 @@
+*{
+    margin: 0 auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto;
+    padding:0px;
+    max-width: 1000px;
+
+    
+}
+header{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    position:sticky;
+    top:0;
+    z-index: 100;
+    align-items: center;
+    height: 60px;
+    width:100%;
+    background-color: rgb(20, 32, 53);
+}
+i{
+    padding-left: 2px;
+    font-size: 20px;
+}
+i:hover{
+    cursor: pointer;
+}
+h3{
+    display: inline;
+    padding-left: 10px;
+    font-family: cursive;
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+    padding-right: 10px;
+    color:white;
+    display: flex;
+    justify-content: space-evenly;
+}
+a:hover{
+    text-decoration: underline;
+    font-size: 1.3em;
+}
+.hero{
+    height: 96vh;
+    box-shadow: 5px 5px;
+    width:100%;
+    background-image: url("heroimgtunes.png");
+    background-size:contain;
+    color:white;
+    display:grid;
+    place-items: center;
+    align-items: center;
+}
+.herotext h1{
+    font-size: 50px;
+    font-family: cursive;
+    padding-left:365px;
+}
+.herotext h3{
+    padding-top:20px;
+    font-size: 30px;
+    font-family:sans-serif;
+    padding-left:40px;
+}
+.herotext h4{
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left:200px;
+}
+.herotext p{
+     padding-left:10px;
+     padding-top:10px;
+}
+.music{
+    padding-top:10px;
+    height:500px;
+    width:100%;
+    gap:30px;
+    background-color: rgb(32, 63, 112);
+    display:grid;
+    justify-content: center;
+    align-items: center;
+
+}
+.music h4{
+    font-family:sans-serif;
+    padding-left:10px;
+    padding-right:10px;
+}
+.music i{
+    
+}
+.music h2{
+    display:inline;
+    
+
+}
+.music h2:hover{
+    text-decoration: underline;
+    transform:scale(1.3);
+    cursor: pointer;
+}
+sectio{
+    scroll-margin:60px;
+}
+button{
+    border:2px solid rgb(20, 19, 19);
+    background-color: rgb(125, 51, 6);
+    width:150px;
+    border-radius:5px;
+    color:white;
+
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(144, 3, 3);
+    transform: scale(1.3);
+}
+.ipad{
+    height:350px;
+    width:100%;
+    background-size: contain;
+    background-image: url("tunesipad.jpg");
+}
+.mac{
+    height:170px;
+    width:100%;
+    padding-top:70px;
+    background-color: cadetblue;
+}
+.mac h4{
+    padding-left:200px;
+}
+.mac p{
+    padding-left:10px;
+
+}
+.mac button{
+    display: grid;
+}
+.vedio{
+    padding-top: 80px;
+    height:340px;
+    width:100%;
+    background-color:#01051f;
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+.storyname h3{
+    display:flex;
+    padding-top: 20px;
+    text-decoration: underline;
+    color: antiquewhite;
+    justify-content: center;
+    background-color:#01051f;
+}
+.gift-section {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+    gap: 50px;
+  }
+  
+.gift-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+.btn{
+    height: 30px;
+    width:70px;
+    border:2px solid blue;
+    background-color: rgb(70, 70, 232);
+    color: white;
+}
+.footer-upper {
+    background-color:rgb(63, 63, 168);
+    padding: 20px;
+    
+  }
+   li {
+    list-style-type: none;
+  }
+  .footer-upper .container {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+  }
+  .footer-upper h4 {
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+    margin-bottom: 10px;
+  }
+
+.footer-lower {
+  background-color: var(--purple300);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  color: rgb(8, 6, 6);
+}
+.gift-section {
+    scroll-margin: 120px;
+  }
+
+    
+
